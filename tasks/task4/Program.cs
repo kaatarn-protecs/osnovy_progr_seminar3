@@ -10,7 +10,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 void PrintQuart (int a)
 {   
-    for (int i = 1; i <= a; ++i) // Перебираем от 1 до a
+    for (int i = 1; i <= a; i++) // Перебираем от 1 до a
     Console.WriteLine($"{i} \t {i*i}");
 }
 
@@ -20,3 +20,4 @@ if (n < 1)
     return;
 }
     PrintQuart (n);
+
