@@ -26,6 +26,6 @@ double GetDist(int xa, int ya, int xb, int yb)
 }
 
 double result = GetDist(xa1, ya1, xb2, yb2);
-Console.WriteLine($"A ({xa1}, {ya1}); B ({xb2}, {yb2}) -> {Math.Round(result, 2}");
+Console.WriteLine($"A ({xa1}, {ya1}); B ({xb2}, {yb2}) -> {Math.Round(result, 2, MidpointRounding.AwayFromZero)}");
 
 
